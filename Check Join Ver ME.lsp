@@ -1,9 +1,10 @@
 ; Day la chuong trinh check xem join kin hay khong
 ; Design : To Van Linh - Mechanical Team - RF Department
 ; Version 1 : 28-Sep-2022
+; Day la chuong trinh Linh dang update
 
 ;====================================================================
-;=========           FUNCTION : MAIN()                        =======
+;=========           FUNCTION : MAIN()        
 ;====================================================================
 (defun C:Checkjoin(/)
 
@@ -91,6 +92,7 @@
   ;--------------------------------------------------------
   ;           Step 4 :  Save data in list                  
   ;--------------------------------------------------------
+; Neu ngay xu buoc di nhanh qua con duong mua
   (setq list_point (list))
   (if ( and (= status_arc 1) (= status_line 1))
     (setq list_point (append list_line list_arc))

@@ -1,6 +1,7 @@
 //=========================================//
 //     Check Join Dialog                   //
 //=========================================//
+// Day la To Van Linh dang test //
 
 CHECKJOIN:dialog {
 	label = "DAY LA CHUONG TRINH CHECK JOIN" ;
